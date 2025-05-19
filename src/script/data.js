@@ -39,7 +39,7 @@ export const dishes = [
 export const meals = [
   {
     id: 1,
-    image: "../asset/images/img1.jpg",
+    image: "../asset/images/img9.jpg",
     name: "Spicy Tuna Roll",
     category: "Sushi",
     price: "$10",
@@ -47,7 +47,7 @@ export const meals = [
   },
   {
     id: 2,
-    image: "../asset/images/img2.jpg",
+    image: "../asset/images/img11.jpg",
     name: "Dragon Roll",
     category: "Sushi",
     price: "$14",
@@ -55,7 +55,7 @@ export const meals = [
   },
   {
     id: 3,
-    image: "../asset/images/img3.jpg",
+    image: "../asset/images/img12.jpg",
     name: "Salmon Sashimi",
     category: "Sushi",
     price: "$24",
@@ -63,7 +63,7 @@ export const meals = [
   },
   {
     id: 4,
-    image: "../asset/images/img4.jpg",
+    image: "../asset/images/img13.jpg",
     name: "Chocolate Cake",
     category: "Desserts",
     price: "$20",
@@ -71,7 +71,7 @@ export const meals = [
   },
   {
     id: 5,
-    image: "../asset/images/img5.jpg",
+    image: "../asset/images/img10.jpg",
     name: "California Roll",
     category: "Sushi",
     price: "$8",
@@ -79,7 +79,7 @@ export const meals = [
   },
   {
     id: 6,
-    image: "../asset/images/img6.jpg",
+    image: "../asset/images/img11.jpg",
     name: "Maki Sushi",
     category: "Sushi",
     price: "$12",
@@ -87,7 +87,7 @@ export const meals = [
   },
   {
     id: 7,
-    image: "../asset/images/img7.jpg",
+    image: "../asset/images/food_8.png",
     name: "Tempura Shrimp",
     category: "Seafood",
     price: "$18",
@@ -95,7 +95,7 @@ export const meals = [
   },
   {
     id: 8,
-    image: "../asset/images/img8.jpg",
+    image: "../asset/images/food_26.png",
     name: "Tuna Sashimi",
     category: "Sushi",
     price: "$22",
@@ -103,7 +103,7 @@ export const meals = [
   },
   {
     id: 9,
-    image: "../asset/images/img9.jpg",
+    image: "../asset/images/food_0.jfif",
     name: "Rainbow Roll",
     category: "Sushi",
     price: "$16",
@@ -111,7 +111,7 @@ export const meals = [
   },
   {
     id: 10,
-    image: "../asset/images/img10.jpg",
+    image: "../asset/images/vegeterian_roll.jfif",
     name: "Vegetarian Roll",
     category: "Sushi",
     price: "$9",
@@ -119,7 +119,7 @@ export const meals = [
   },
   {
     id: 11,
-    image: "../asset/images/img11.jpg",
+    image: "../asset/images/avocado.jfif",
     name: "Avocado Roll",
     category: "Sushi",
     price: "$7",
@@ -127,7 +127,7 @@ export const meals = [
   },
   {
     id: 12,
-    image: "../asset/images/img12.jpg",
+    image: "../asset/images/unagi.jfif",
     name: "Unagi Don",
     category: "Asian",
     price: "$15",
@@ -135,7 +135,7 @@ export const meals = [
   },
   {
     id: 13,
-    image: "../asset/images/img13.jpg",
+    image: "../asset/images/griflled.jfif",
     name: "Grilled Salmon",
     category: "Seafood",
     price: "$25",
@@ -143,7 +143,7 @@ export const meals = [
   },
   {
     id: 14,
-    image: "../asset/images/img14.jpg",
+    image: "../asset/images/teriyaki.jfif",
     name: "Chicken Teriyaki",
     category: "Asian",
     price: "$18",
@@ -151,7 +151,7 @@ export const meals = [
   },
   {
     id: 15,
-    image: "../asset/images/img15.jpg",
+    image: "../asset/images/Prawn.jfif",
     name: "Prawn Tempura",
     category: "Seafood",
     price: "$16",
@@ -159,7 +159,7 @@ export const meals = [
   },
   {
     id: 16,
-    image: "../asset/images/img16.jpg",
+    image: "../asset/images/Seaweed.jfif",
     name: "Seaweed Salad",
     category: "Salad",
     price: "$5",
@@ -167,7 +167,7 @@ export const meals = [
   },
   {
     id: 17,
-    image: "../asset/images/img17.jpg",
+    image: "../asset/images/Spicy.jfif",
     name: "Spicy Crab Roll",
     category: "Sushi",
     price: "$12",
@@ -175,7 +175,7 @@ export const meals = [
   },
   {
     id: 18,
-    image: "../asset/images/img18.jpg",
+    image: "../asset/images/egg.jfif",
     name: "Egg Sushi",
     category: "Sushi",
     price: "$6",
@@ -183,7 +183,7 @@ export const meals = [
   },
   {
     id: 19,
-    image: "../asset/images/img19.jpg",
+    image: "../asset/images/Shrimp.jfif",
     name: "Shrimp Sushi",
     category: "Sushi",
     price: "$11",
@@ -191,7 +191,7 @@ export const meals = [
   },
   {
     id: 20,
-    image: "../asset/images/img20.jpg",
+    image: "../asset/images/Fried.jfif",
     name: "Fried Rice",
     category: "Asian",
     price: "$9",
@@ -199,7 +199,7 @@ export const meals = [
   },
   {
     id: 21,
-    image: "../asset/images/img21.jpg",
+    image: "../asset/images/Beef.jfif",
     name: "Beef Stir Fry",
     category: "Asian",
     price: "$12",
@@ -207,7 +207,7 @@ export const meals = [
   },
   {
     id: 22,
-    image: "../asset/images/img22.jpg",
+    image: "../asset/images/Chicken.jfif",
     name: "Chicken Fried Rice",
     category: "Asian",
     price: "$10",
@@ -215,7 +215,7 @@ export const meals = [
   },
   {
     id: 23,
-    image: "../asset/images/img23.jpg",
+    image: "../asset/images/BBQ.jfif",
     name: "BBQ Chicken Wings",
     category: "Appetizers",
     price: "$8",
@@ -223,7 +223,7 @@ export const meals = [
   },
   {
     id: 24,
-    image: "../asset/images/img24.jpg",
+    image: "../asset/images/Garlic.jfif",
     name: "Garlic Bread",
     category: "Appetizers",
     price: "$4",
@@ -231,67 +231,11 @@ export const meals = [
   },
   {
     id: 25,
-    image: "../asset/images/img25.jpg",
+    image: "../asset/images/Buffalo.jfif",
     name: "Buffalo Wings",
     category: "Appetizers",
     price: "$9",
     deliveryTime: "20 mins",
-  },
-  {
-    id: 26,
-    image: "../asset/images/img26.jpg",
-    name: "Grilled Chicken Salad",
-    category: "Salad",
-    price: "$11",
-    deliveryTime: "30 mins",
-  },
-  {
-    id: 27,
-    image: "../asset/images/img27.jpg",
-    name: "Caesar Salad",
-    category: "Salad",
-    price: "$7",
-    deliveryTime: "20 mins",
-  },
-  {
-    id: 28,
-    image: "../asset/images/img28.jpg",
-    name: "Lasagna",
-    category: "Italian",
-    price: "$18",
-    deliveryTime: "40 mins",
-  },
-  {
-    id: 29,
-    image: "../asset/images/img29.jpg",
-    name: "Spaghetti Bolognese",
-    category: "Italian",
-    price: "$14",
-    deliveryTime: "35 mins",
-  },
-  {
-    id: 30,
-    image: "../asset/images/img30.jpg",
-    name: "Margherita Pizza",
-    category: "Italian",
-    price: "$12",
-    deliveryTime: "30 mins",
-  },
-  {
-    id: 31,
-    image: "../asset/images/img31.jpg",
-    name: "Pepperoni Pizza",
-    category: "Italian",
-    price: "$15",
-    deliveryTime: "30 mins",
-  },
-  {
-    id: 32,
-    image: "../asset/images/img32.jpg",
-    name: "Chicken Alfredo",
-    category: "Italian",
-    price: "$16",
-    deliveryTime: "35 mins",
   },
 ];
 export const faq = [
