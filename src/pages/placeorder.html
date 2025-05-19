@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eatscape</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" href="../asset/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body>
+    <div class="w-full md:w-[80%] mx-auto my-0 px-4 md:px-0">
+      <!-- header -->
+      <header class="flex justify-between items-center py-[20px]">
+        <img
+          src="../asset/images/logo.png"
+          alt="logo"
+          class="w-[100px] h-[100px] object-cover rounded-full shadow-md transition-all duration-300 ease-in-out"
+        />
+        <nav class="flex gap-[20px]">
+          <a href="index.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Home</a
+          >
+          <a href="menu.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Menu</a
+          >
+          <a href="#testimonial" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Testimonial</a
+          >
+          <a href="about.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >About</a
+          >
+          <a href="contact.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Contact</a
+          >
+        </nav>
+        <div class="mobile md:hidden flex cursor-pointer text-[1.5rem]">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <div class="mt-4 flex flex-col gap-4">
+          <div class="meal_detail"></div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="../script/placeorder.js"></script>
+  </body>
+</html>

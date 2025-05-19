@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eatscape</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" href="../asset/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body>
+    <div class="w-full md:w-[80%] mx-auto my-0 px-4 md:px-0">
+      <!-- header -->
+      <header class="flex justify-between items-center py-[20px]">
+        <img
+          src="../asset/images/logo.png"
+          alt="logo"
+          class="w-[100px] h-[100px] object-cover rounded-full shadow-md transition-all duration-300 ease-in-out"
+        />
+        <nav class="flex gap-[20px]">
+          <a href="index.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Home</a
+          >
+          <a href="menu.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Menu</a
+          >
+          <a href="#testimonial" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Testimonial</a
+          >
+          <a href="about.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >About</a
+          >
+          <a href="contact.html" class="text-[#9acd32] hover:text-[#9acd32]"
+            >Contact</a
+          >
+        </nav>
+        <div class="mobile md:hidden flex cursor-pointer text-[1.5rem]">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between min-h-[70vh] bg-no-repeat bg-cover bg-center p-4 md:p-8 lg:p-12 rounded-xl relative overflow-hidden"
+          style="background-image: url('../asset/images/food_1.png')"
+        >
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-black/70"></div>
+
+          <!-- Text Content -->
+          <div
+            class="flex flex-col justify-center bg-black/60 p-6 md:p-8 lg:p-10 text-white z-10 rounded-lg w-full lg:w-[55%] mb-6 lg:mb-0"
+          >
+            <h1
+              class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight"
+            >
+              The Fastest Delivery In Your
+              <span class="text-[#9acd32]">City</span>
+            </h1>
+            <p class="text-lg md:text-xl my-4 text-gray-200">
+              Fresh <span class="text-[#9acd32] font-medium">ingredients</span>,
+              Fast delivery, Affordable prices.
+            </p>
+            <a
+              href="menu.html"
+              class="py-3 px-6 md:py-4 md:px-8 w-full sm:w-[70%] lg:w-[60%] bg-[#9acd32] border-2 border-[#9acd32] rounded-lg text-lg font-bold uppercase text-white hover:bg-transparent hover:text-[#9acd32] transition-all duration-300 flex items-center justify-center"
+            >
+              Order Now
+            </a>
+          </div>
+
+          <!-- Image -->
+          <div class="relative z-10 w-full lg:w-[40%] flex justify-center">
+            <img
+              src="../asset/images/food_1.png"
+              alt="Delicious food"
+              class="w-full max-w-md lg:max-w-none rounded-lg shadow-xl object-cover"
+            />
+          </div>
+        </div>
+        <!-- meals -->
+        <div class="mt-4 flex flex-col gap-4">
+          <h1 class="text-2xl font-bold text-gray-800 md:text-3xl lg:text-4xl">
+            Explore Our Meals
+          </h1>
+          <div
+            class="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 hero_meal"
+          ></div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="../script/script.js"></script>
+  </body>
+</html>
