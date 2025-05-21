@@ -27,9 +27,6 @@
           <a href="menu.html" class="text-[#9acd32] hover:text-[#9acd32]"
             >Menu</a
           >
-          <a href="#testimonial" class="text-[#9acd32] hover:text-[#9acd32]"
-            >Testimonial</a
-          >
           <a href="about.html" class="text-[#9acd32] hover:text-[#9acd32]"
             >About</a
           >
@@ -42,7 +39,131 @@
         </div>
       </header>
       <!-- main -->
-      <main>menu</main>
+      <main>
+        <section class="bg-white rounded-xl shadow-md p-6 md:p-10 mt-6 mb-10">
+          <h1 class="text-3xl md:text-4xl font-bold text-[#9acd32] mb-4">
+            Contact Us
+          </h1>
+          <p class="text-gray-700 text-lg mb-6">
+            Have a question, feedback, or want to place a special order? Fill
+            out the form below or reach us directly. Our team is here to help
+            you!
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <form
+              class="flex flex-col gap-4 bg-[#f9fafb] p-6 rounded-lg shadow"
+              autocomplete="off"
+            >
+              <div>
+                <label for="name" class="block text-gray-700 font-semibold mb-1"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#9acd32]"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-gray-700 font-semibold mb-1"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#9acd32]"
+                />
+              </div>
+              <div>
+                <label
+                  for="message"
+                  class="block text-gray-700 font-semibold mb-1"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#9acd32]"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="bg-[#9acd32] text-white font-bold py-2 rounded hover:bg-[#7fae1a] transition"
+              >
+                Send Message
+              </button>
+            </form>
+            <div class="flex flex-col gap-6 justify-center">
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-location-dot text-[#9acd32] text-xl"></i>
+                <span class="text-gray-700">Kigali, Rwanda</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-envelope text-[#9acd32] text-xl"></i>
+                <span class="text-gray-700">info@eatscape.com</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <i class="fa-solid fa-phone text-[#9acd32] text-xl"></i>
+                <span class="text-gray-700">+250 788 123 456</span>
+              </div>
+              <div class="flex gap-4 mt-2">
+                <a href="#" class="hover:text-[#9acd32]" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="hover:text-[#9acd32]" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="hover:text-[#9acd32]" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="mt-8 bg-[#222] text-white py-8 rounded-t-lg shadow-inner">
+        <div
+          class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4"
+        >
+          <div class="flex items-center gap-3">
+            <img
+              src="../asset/images/logo.png"
+              alt="Eatscape Logo"
+              class="w-12 h-12 rounded-full shadow"
+            />
+            <span class="font-bold text-lg tracking-wide">Eatscape</span>
+          </div>
+          <nav class="flex gap-6 text-gray-300 text-sm">
+            <a href="index.html" class="hover:text-[#9acd32]">Home</a>
+            <a href="menu.html" class="hover:text-[#9acd32]">Menu</a>
+            <a href="#testimonial" class="hover:text-[#9acd32]">Testimonial</a>
+            <a href="about.html" class="hover:text-[#9acd32]">About</a>
+            <a href="contact.html" class="hover:text-[#9acd32]">Contact</a>
+          </nav>
+          <div class="flex gap-4">
+            <a href="#" class="hover:text-[#9acd32]" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="hover:text-[#9acd32]" aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="hover:text-[#9acd32]" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="text-center text-xs text-gray-400 mt-4">
+          &copy; 2025 Eatscape. All rights reserved.
+        </div>
+      </footer>
     </div>
   </body>
 </html>
